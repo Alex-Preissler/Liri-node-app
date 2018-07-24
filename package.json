@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Text based virtual assistant for twitter and movie/music searches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Preissler/Liri-node-app.git"
+  },
+  "keywords": [
+    "spotify",
+    "twitter"
+  ],
+  "author": "Alex Preissler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Preissler/Liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Alex-Preissler/Liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "1.0.7",
+    "twitter": "1.7.1",
+    "request": "2.87.0",
+    "dotenv": "6.0.0"
+  }
+}
